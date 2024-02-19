@@ -1,7 +1,4 @@
-folium==0.15.1
-pandas==2.0.3
-plotly==5.9.0
+lxml==4.9.3
 Requests==2.31.0
 streamlit==1.31.1
-streamlit_folium==0.18.0
-~treamlit==1.31.0
+streamlit==1.31.0
