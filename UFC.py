@@ -12,7 +12,6 @@ if page == "Fighter Information":
     if st.button("Get Fighter Information"):
         try:
             fighter_info = get_fighter(fighter_query)
-            print(fighter_info)  # Add a print statement to check the response
             st.write(fighter_info)
         except BaseException as e:
             st.error(f"Error: {str(e)}")
